@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: white;
+    color: black;
+    padding: 0px 0;
+    /* Reduced padding */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 4px solid #333;
+    
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 120000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+        /* Align items to the start */
+}
+
+.navbar-logo {
+    max-width: 80px;
+    /* Increased logo size */
+    margin-right: 5 px;
+    
+    
+}
+
+.navbar-title {
+    font-weight: bold;
+    font-size: 2em;
+    /* Increased font size */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-right {
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 10px;
+    /* Adjust this line to decrease space on the right */
+    padding: 0 px;
+    /* Ensure no padding at the top */
+    margin-top: 0 px;
+       
+}
+
+.employee-info {
+    margin: 0;
+    /* Remove any default margin */
+    padding: 0;
+    /* Remove any default padding */
+    line-height: 0;
+    
+}
+.container {
+    max-width: 550px;
+    
+    margin: 80px auto 50px auto;
+    /* Adjusted margin to account for fixed navbar */
+    background-color: #FFFFFF;
+   
+    border-radius: 8px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: calc(10% - 22px);
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.cancel-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cancel-button:hover {
+    background-color: #cc0000;
+}
+
+.nav-bar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav-bar a {
+    color: #028740;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
